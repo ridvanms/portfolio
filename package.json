@@ -1,0 +1,30 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Creating Portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ridvanms/portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ridvanms/portfolio/issues"
+  },
+  "homepage": "https://github.com/ridvanms/portfolio#readme",
+  "dependencies": {
+    "compass": "^0.1.1",
+    "lit-html": "^2.7.3",
+    "page": "^1.11.6",
+    "particles-bg": "^2.5.5",
+    "tachyons": "^4.12.0"
+  },
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
