@@ -1,0 +1,83 @@
+.padTop12{
+   padding-top:10%;
+   padding-bottom:20%;
+   overflow: hidden;
+}
+.projectsIMG{
+    height:26em;
+    border:1px solid white;
+
+background: rgb(0,0,0);
+background: radial-gradient(circle, rgba(0,0,0,0.6027004551820728) 0%, rgba(0,0,0,0.5774903711484594) 96%);
+
+}
+.br-50{
+    border-radius: 50%;
+}
+li{
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+ @font-face {
+    font-family: 'Rengard Free Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Rengard Free Regular'), url('../../assert/shrifts/RengardfreeRegular-JR3MB.woff') format('woff');
+}
+    
+
+@font-face {
+    font-family: 'Rengard Free Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Rengard Free Italic'), url('../../assert/shrifts/RoadRaceExtraOutline-6YKw6.otf') format('woff');
+}
+li{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+a{
+    opacity: 0.7;
+    text-decoration:none;
+    
+    transition:0.5s;
+    transition-timing-function: ease-out;
+    
+    font-size: 70%;
+
+    color: white;
+
+    font-family: 'Rengard Free Italic', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+a:hover{
+    opacity: 1;
+    font-size:100%;
+}
+li:hover{
+    border-bottom: 1px solid;
+    
+}
+#projects{
+    padding-left: 4%;
+    padding-right: 4%;
+    
+}
+
+.firstDiv{
+    display: flex;
+    justify-content: center;
+}
+.secondDiv img{
+    border-radius: 20%;
+    padding-left: 5%;
+    padding-bottom: 5%;
+}
+/*  */
+.dn{
+    display: none;
+}
+.dib{
+    display: inline-block;
+}

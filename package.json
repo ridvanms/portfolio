@@ -1,10 +1,10 @@
 {
   "name": "portfolio",
   "version": "1.0.0",
-  "description": "Creating Portfolio",
-  "main": "index.js",
+  "description": "Portfolio",
+  "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "start": "lite-server"
   },
   "repository": {
     "type": "git",

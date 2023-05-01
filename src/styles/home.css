@@ -1,0 +1,19 @@
+.homeSection{
+    padding-bottom:25%;
+    height: 35%;
+    width: auto;
+}
+.df{
+    display:flex;
+}
+.homeSection h1{
+    
+}
+.smallerNavEl{
+    font-size: smaller;
+    opacity: 0.5;
+}
+.biggerNavEl{
+    font-size: 100%;
+    opacity: 1;
+}
