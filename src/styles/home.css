@@ -1,19 +1,16 @@
-.homeSection{
-    padding-bottom:25%;
-    height: 35%;
-    width: auto;
+#homeSection{
+    margin-bottom: 0;
 }
-.df{
-    display:flex;
+#homeSection h1{
+    padding-top:0;
 }
-.homeSection h1{
-    
-}
-.smallerNavEl{
-    font-size: smaller;
-    opacity: 0.5;
-}
-.biggerNavEl{
-    font-size: 100%;
-    opacity: 1;
+
+@media (max-width:500px) {
+    #homeSection{
+        margin-top: 5em;
+    }
+    #homeSection h1{
+        padding-top: 1em;
+        
+    }
 }

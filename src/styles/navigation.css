@@ -1,7 +1,4 @@
-.sticky{
-    position: fixed;
-    width: 100%;
-}
+
 .toggleImg{
     margin-top: 2%;
     margin-left: 2%;
@@ -11,48 +8,64 @@
     opacity: 0.5;
     cursor: pointer;
 }
-
+/*  */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 /* Style the navigation menu */
-.topnav {
-  overflow: hidden;
-  background: rgb(0,0,0);
-background: radial-gradient(circle, rgba(0,0,0,0.47945115546218486) 0%, rgba(0,0,0,0.4458377100840336) 96%);
-  position: relative;
+body.dark header {
+    mix-blend-mode: difference;
+}
+/*  */
+header .header-content {
+    z-index: inherit;
+    height: inherit;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 88px 0 96px;
+}
+header .header-content .left-part, header .header-content .right-part {
+    pointer-events: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    z-index: inherit;
+}
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+header .header-content ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+header .header-content .right-part .theme-switch {
+    cursor: pointer;
+    transform: translateY(48px);
+}
+header .header-content .right-part ul li {
+    margin-left: 24px;
 }
 
-/* Hide the links inside the navigation menu (except for logo/home) */
-.topnav #myLinks {
-  display: none;
-}
 
-/* Style navigation menu links */
-.topnav a {
-  color: rgb(255, 255, 255);
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-  display: block;
-}
-
-/* Style the hamburger menu */
-.topnav a.icon {
-  background: rgb(0,0,0);
-background: radial-gradient(circle, rgba(0,0,0,0.47945115546218486) 0%, rgba(0,0,0,0.4458377100840336) 96%);
-  display: block;
-  position: absolute;
-  right: 0;
-  top: 0;
-}
-
-/* Add a grey background color on mouse-over */
-.topnav a:hover {
-  background-color: #ddd;
-  color: black;
-}
-
-/* Style the active link (or home/logo) */
-.active {
-  background: rgb(0,0,0);
-background: radial-gradient(circle, rgba(0,0,0,0.47945115546218486) 0%, rgba(0,0,0,0.4458377100840336) 96%);
-  color: white;
+.icons-style {
+    opacity: 1;
+    fill: none;
+    stroke: currentColor;
+    stroke-width: 2px;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-miterlimit: 10;
+    display: block;
 }

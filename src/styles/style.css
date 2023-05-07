@@ -3,6 +3,8 @@
 @import "home.css";
 @import "projects.css";
 @import "loader.css";
+@import "contacts.css";
+@import "about.css";
 
 @font-face {
     font-family: 'Palaise Free Italic';
@@ -16,29 +18,54 @@
     font-weight: normal;
     src: local('Lovalina Free Italic'), url('../../assert/shrifts/LovalinaItalic-K7xpl.woff') format('woff');
 };
-
+#wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .aPopUp{
     opacity:1;
+    font-size: larger;
+}
+main{
+}
+@media (max-width){
+    main{
+        padding:0;
+    }
 }
 html{
-    
+
 }
 
 body{
-background: rgb(0,0,0);
-background: radial-gradient(circle, rgba(0,0,0,0.5186668417366946) 0%, rgba(0,0,0,0.24975927871148462) 96%);
+   background: rgb(150,170,176);
+background: linear-gradient(87deg, rgba(150,170,176,0.34499737394957986) 50%, rgba(0,136,252,0.5130646008403361) 100%);
+    
+background-size:auto;
 
-color:rgb(255, 255, 255);
-
+    overflow: hidden;
+    padding-bottom: 50em;
+}
+h1{
+    background: -webkit-linear-gradient(currentColor,rgba(47, 46, 46, 0.45) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color:transparent;
 }
 
-
 .h1Profile{
-    font-family:'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .h4Profile{
     /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
     font-family: "Palaise Free Italic";
+}
+a{
+    opacity: 0.7;
+    transition:0.5s
+}
+a:hover{
+    opacity: 1;
 }
 
 /* profil image */
@@ -170,7 +197,6 @@ transition: all 1s ease;
 .logo{
     position: absolute;
     padding-top: 2em;
-    padding-left: 2em;
     width: 7em;
     height: auto;
 }
